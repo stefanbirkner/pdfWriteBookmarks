@@ -31,7 +31,12 @@ build it with the command
 
 You will find the actual source code files in the subfolder src/pdfwritebookmarks/
 
-The executable jar-file is in the subfolder dist/. Read /dist/README.TXT
+The executable jar-file is in the subfolder dist/. To run the project from the
+command line, type the following:
+
+    java -jar dist/pdfWriteBookmarks.jar
+
+The output tells you the details about using this application.
 
 You will probably want to put this folder in a convenient location and write a simple 
 batch file to wrap around the jar-file.
